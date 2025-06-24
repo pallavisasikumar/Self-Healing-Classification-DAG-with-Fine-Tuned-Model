@@ -1,0 +1,32 @@
+2025-06-24 00:18:47,410 - [InferenceNode] Input: 'The movie was absolutely amazing!' | Prediction: Positive | Confidence: 0.99
+2025-06-24 00:18:47,411 - [ConfidenceCheckNode] Confidence 0.99 accepted.
+2025-06-24 00:19:11,591 - [InferenceNode] Input: 'The movie was painfully slow and boring.' | Prediction: Negative | Confidence: 0.99
+2025-06-24 00:19:11,592 - [ConfidenceCheckNode] Confidence 0.99 accepted.
+2025-06-24 11:29:57,118 - [InferenceNode] Input: 'The movie was painfully slow and boring.' | Prediction: Negative | Confidence: 0.99
+2025-06-24 11:29:57,119 - [ConfidenceCheckNode] Confidence 0.99 accepted.
+2025-06-24 11:32:51,457 - [InferenceNode] Input: 'the movie was painfully slow and boring.' | Prediction: Negative | Confidence: 0.99
+2025-06-24 11:32:51,458 - [ConfidenceCheckNode] Confidence 0.99 accepted.
+2025-06-24 11:34:04,390 - [InferenceNode] Input: 'It had a few good moments, but overall it fell flat.' | Prediction: Negative | Confidence: 0.97
+2025-06-24 11:34:04,390 - [ConfidenceCheckNode] Confidence 0.97 accepted.
+2025-06-24 11:35:50,116 - [InferenceNode] Input: 'It wasn�t the worst movie I�ve seen.' | Prediction: Negative | Confidence: 0.95
+2025-06-24 11:35:50,116 - [ConfidenceCheckNode] Confidence 0.95 accepted.
+2025-06-24 11:36:15,549 - [InferenceNode] Input: 'The movie made me feel things, not all of them good.' | Prediction: Negative | Confidence: 0.98
+2025-06-24 11:36:15,549 - [ConfidenceCheckNode] Confidence 0.98 accepted.
+2025-06-24 12:02:24,414 - [InferenceNode] Input: 'The movie was painfully slow and boring.' | Prediction: Negative | Confidence: 0.99
+2025-06-24 12:02:24,414 - [ConfidenceCheckNode] Confidence 0.99 accepted.
+2025-06-24 12:05:52,762 - [InferenceNode] Input: 'It had a few good moments, but overall it fell flat.' | Prediction: Negative | Confidence: 0.97
+2025-06-24 12:05:52,763 - [ConfidenceCheckNode] Confidence 0.97 accepted.
+2025-06-24 12:08:23,605 - [InferenceNode] Input: 'It�s kind of hard to say whether I liked it or not.' | Prediction: Negative | Confidence: 0.96
+2025-06-24 12:08:23,605 - [ConfidenceCheckNode] Confidence 0.96 accepted.
+2025-06-24 12:13:48,128 - [InferenceNode] Input: 'The actors did their best with a very weak script.' | Prediction: Negative | Confidence: 0.99
+2025-06-24 12:13:48,129 - [ConfidenceCheckNode] Confidence 0.99 accepted.
+2025-06-24 12:14:27,044 - [InferenceNode] Input: 'It was better than I expected.' | Prediction: Negative | Confidence: 0.86
+2025-06-24 12:14:27,044 - [ConfidenceCheckNode] Confidence 0.86 accepted.
+2025-06-24 12:16:28,401 - [InferenceNode] Input: 'I guess it was decent.' | Prediction: Positive | Confidence: 0.97
+2025-06-24 12:16:28,402 - [ConfidenceCheckNode] Confidence 0.97 accepted.
+2025-06-24 12:16:48,078 - [InferenceNode] Input: 'The movie was painfully slow and boring.' | Prediction: Negative | Confidence: 0.99
+2025-06-24 12:16:48,079 - [ConfidenceCheckNode] Confidence 0.99 accepted.
+2025-06-24 12:54:11,054 - [InferenceNode] Input: 'The movie was painfully slow and boring' | Prediction: Negative | Confidence: 0.99
+2025-06-24 12:54:11,055 - [ConfidenceCheckNode] Confidence 0.99 accepted.
+2025-06-24 12:55:26,591 - [InferenceNode] Input: 'The movie is kinda good' | Prediction: Positive | Confidence: 0.99
+2025-06-24 12:55:26,593 - [ConfidenceCheckNode] Confidence 0.99 accepted.
