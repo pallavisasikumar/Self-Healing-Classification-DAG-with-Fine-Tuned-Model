@@ -131,6 +131,31 @@ Fallback rate: 50.0%
 This CLI design follows a LangGraph-style DAG — every sentence flows through a series of intelligent nodes and fallback logic.
 
 
+SAMPLE OUTPUT
+
+🤖 Self-Healing Sentiment Classifier (Type 'exit' to quit)
+
+Enter a sentence: The movie was painfully slow and boring
+[InferenceNode] Prediction: Positive | Confidence: 60%
+[ConfidenceCheckNode] Confidence too low. Triggering fallback...
+[FallbackNode] Model predicted 'Positive' with 60% confidence.  
+Do you agree with this label? (yes/no): no
+Please enter the correct label (Positive/Negative): Negative
+[Final Decision] Corrected to: Negative
+Enter a sentence: exit
+Goodbye!
+
+📊 Session Summary
+   Confidence Per Input   
+╭─────────┬──────────────╮
+│ Input # │ Confidence % │
+├─────────┼──────────────┤
+│ 1       │ 60%          │
+╰─────────┴──────────────╯
+
+Fallbacks triggered: 1 times out of 1 inputs.
+Fallback rate: 100.0%
+
 ## 🔽 Download Trained Model
 
 Due to GitHub’s file size limit (100 MB), the trained model is not included in the repository.
