@@ -30,3 +30,20 @@
 2025-06-24 12:54:11,055 - [ConfidenceCheckNode] Confidence 0.99 accepted.
 2025-06-24 12:55:26,591 - [InferenceNode] Input: 'The movie is kinda good' | Prediction: Positive | Confidence: 0.99
 2025-06-24 12:55:26,593 - [ConfidenceCheckNode] Confidence 0.99 accepted.
+2025-06-25 18:12:44,971 - [InferenceNode] Input: 'The movie was painfully slow and boring' | Prediction: Negative | Confidence: 0.96
+2025-06-25 18:12:44,971 - [ConfidenceCheckNode] Confidence 0.96 accepted.
+2025-06-25 18:19:09,140 - [InferenceNode] Input: 'The movie was painfully slow and boring' | Prediction: Positive | Confidence: 0.61
+2025-06-25 18:19:09,140 - [ConfidenceCheckNode] Confidence 0.61 below threshold. Triggering fallback.
+2025-06-25 18:19:35,741 - [BackupModel] Suggested label: Negative | Scores: [0.9753904342651367, 0.024609532207250595]
+2025-06-25 18:23:21,736 - [InferenceNode] Input: 'The movie was painfully slow and boring' | Prediction: Positive | Confidence: 0.61
+2025-06-25 18:23:21,737 - [ConfidenceCheckNode] Confidence 0.61 below threshold. Triggering fallback.
+2025-06-25 18:23:34,218 - [FallbackNode] User corrected label to 'Negative'
+2025-06-25 18:25:35,034 - [InferenceNode] Input: 'The movie was painfully slow and boring' | Prediction: Positive | Confidence: 0.61
+2025-06-25 18:25:35,034 - [ConfidenceCheckNode] Confidence 0.61 below threshold. Triggering fallback.
+2025-06-25 18:25:50,814 - [FallbackNode] User corrected label to 'Negative'
+2025-06-25 18:25:57,244 - [InferenceNode] Input: 'The movie was amazing' | Prediction: Positive | Confidence: 0.64
+2025-06-25 18:25:57,244 - [ConfidenceCheckNode] Confidence 0.64 below threshold. Triggering fallback.
+2025-06-25 18:26:04,310 - [FallbackNode] User accepted label 'Positive'
+2025-06-25 18:43:45,652 - [InferenceNode] Input: 'The movie was painfully slow and boring' | Prediction: Positive | Confidence: 0.61
+2025-06-25 18:43:45,654 - [ConfidenceCheckNode] Confidence 0.61 below threshold. Triggering fallback.
+2025-06-25 18:44:21,291 - [FallbackNode] User corrected label to 'Negetive'
